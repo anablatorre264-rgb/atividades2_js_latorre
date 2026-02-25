@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checar Prato</title>
+</head>
+<body>
+    <h1>Checar Prato</h1>
+    <script>
+    
+    let comida = prompt("Digite qual comida você quer? PIZZA, HAMBURGUER, SUSHI, SALADA").toUpperCase();
+
+    switch(comida){
+            case "PIZZA":
+                document.write("Em 60 min, seu pedido estará pronto");
+                // com break só aparece a var., sem aparece todos a partir do var.
+                break;
+            case "HAMBURGUER":
+                document.write("Em 40 min, seu pedido estará pronto");
+                break;
+            case "SUSHI":
+                document.write("Em 50 min, seu pedido estará pronto");
+                break;
+            case "SALADA":
+                document.write("Em 20 min, seu pedido estará pronto");
+                break;
+                default:
+                document.write("Não temos essa comida!")
+                
+        }
+    </script>
+</body>
+</html>
